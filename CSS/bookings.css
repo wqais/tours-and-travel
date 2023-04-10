@@ -1,0 +1,20 @@
+.booking-container{
+    margin: auto;
+}
+
+h4{
+    margin-bottom: 3rem;
+}
+
+.card{
+    margin-bottom: 2rem;
+}
+
+.tour-img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-container{
+    margin-right: 1rem;
+}

@@ -1,0 +1,100 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+
+.tour-image {
+  width: 15rem;
+  height: 15rem;
+  object-fit: cover;
+}
+
+.nav-link:hover{
+    color: #14274e;
+}
+
+.search-container{
+    margin-bottom: 2rem;
+}
+
+.carousel-link{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+@media (min-width: 576px) {
+  .card-container {
+    display: inline-grid;
+    margin: 1rem;
+  }
+
+  .search-btn{
+    margin-left: 1rem;
+  }
+
+  .card {
+    margin-left: 3rem;
+  }
+
+  .carousel-img {
+    object-fit: cover;
+    width: 100%;
+    height: 30rem;
+  }
+
+  .carousel {
+    margin: 5rem 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .card {
+    margin: 1rem auto;
+  }
+
+  .login-btn-container{
+    padding-bottom: 2rem;
+  }
+}
+
+.advanced {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.search-btn,
+.book-btn,
+.month-btn,
+.view-tours-btn{
+  color: #fff;
+  background-color: #14274e;
+  border-color: #14274e;
+  box-shadow: none;
+}
+
+.advanced {
+  color: #14274e;
+  margin-top: 2rem;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border: 1px solid #14274e;
+}
+
+.advanced-search {
+  margin-left: -3rem;
+}
+
+.view-btn{
+  background-color: #fff;
+  color: #14274e;
+  border: 1px solid #14274e;
+  margin-left: 2.8rem;
+}
+
+.view-btn:hover{
+  background-color: rgba(173, 171, 171, 0.281);
+  color: #14274e;
+}

@@ -1,0 +1,16 @@
+label{
+    margin-top: 1rem;
+}
+
+.form-control{
+    margin-top: 1rem;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+a:hover{
+    text-decoration: underline;
+}

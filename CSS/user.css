@@ -1,0 +1,18 @@
+
+.user-form{
+    width: 50%;
+    margin: 3rem auto;
+}
+
+.user-form h4{
+    margin: 1rem 0 2rem 0;
+}
+
+.user-form p{
+    margin-top: 2rem;
+}
+
+
+.submit-btn{
+    width: 10rem;
+}

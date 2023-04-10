@@ -1,0 +1,71 @@
+#book-form{
+    width: 85%;
+    margin: 5rem auto;
+}
+
+#book-form h3{
+    margin-bottom: 3rem;
+}
+
+.btn-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.details-container{
+    margin: 5rem auto;
+}
+
+.tour-title{
+    margin-bottom: 3rem;
+}
+
+.warning-text{
+    color: rgb(188, 0, 0);
+}
+
+.warning-container{
+    text-align: right;
+}
+
+.tour-title{
+    text-decoration: none;
+    color: #14274e;
+}
+
+.tour-title:hover{
+    text-decoration: underline;
+}
+
+
+.cost-container{
+    display: none;
+}
+
+/* body{
+    background-color: #14274e;
+    color: white;
+} */
+
+.hidden{
+    display: none;
+}
+
+.total-bill{
+    font-weight: 600;
+}
+
+table{
+    border-collapse: separate;
+    border-spacing: 2rem 2rem;
+    width: 100%;
+}
+
+.print-btn{
+    font-family: "Inter", sans-serif;
+}
+
+.print-btn-container{
+    text-align: right;
+}

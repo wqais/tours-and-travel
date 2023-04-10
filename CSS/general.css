@@ -1,0 +1,177 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+
+.logo {
+  width: 12rem;
+  height: 8rem;
+  object-fit: cover;
+  margin-right: 0;
+}
+
+.profile-icon{
+  width: 2rem;
+  height: 2rem;
+}
+
+.profile-link{
+  text-decoration: none;
+  color: #14274e;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.login-btn {
+  border: 2px solid #14274e;
+  color: #14274e;
+}
+
+.login-btn:hover {
+  color: #ece7e2;
+  background-color: #14274e;
+  border: 1px solid #14274e;
+}
+
+.nav-link {
+  color: grey;
+}
+
+.nav-link:hover {
+  color: #14274e;
+}
+
+@media (min-width: 576px) {
+  .nav-link {
+    margin: 0 1rem;
+  }
+  .nav {
+    background-color: #ece7e2;
+  }
+
+  .nav-link:first-child {
+    margin-left: 17rem;
+  }
+
+  .login-btn-container {
+    margin-left: 20rem;
+  }
+
+  footer .col:last-child {
+    margin-top: 1.2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .nav-link,
+  .login-btn-container {
+    margin-left: 1.5rem;
+  }
+
+  .footer-col:nth-child(2) {
+    display: none;
+  }
+
+  footer .container .row {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 1rem auto;
+  }
+
+  .col-8 {
+    margin-left: 3.5rem;
+  }
+
+  .social {
+    margin-left: -1rem;
+  }
+
+  .view-tours-btn {
+    width: 10rem;
+    margin: 2rem 0 3rem -3rem;
+  }
+
+  .social-logo {
+    width: 2rem;
+    height: 2rem;
+    object-fit: cover;
+    margin: 0;
+  }
+}
+
+footer {
+  margin-top: 10rem;
+  background-color: #14274e;
+  color: #ece7e2;
+}
+
+.footer-col {
+  padding: 3rem 0;
+}
+
+li {
+  list-style-type: none;
+  margin: 1.5rem auto;
+}
+
+li a {
+  text-decoration: none;
+  color: #ece7e2;
+}
+
+.social-logo {
+  width: 2rem;
+  height: 2rem;
+  object-fit: cover;
+}
+
+.social-links-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+}
+
+footer input {
+  background-color: #14274e;
+  border: none;
+  color: #ece7e2;
+}
+
+footer input:hover {
+  color: grey;
+}
+
+.advanced {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.search-btn,
+.book-btn,
+.month-btn,
+.view-tours-btn,
+.btn-secondary,
+.btn-primary {
+  color: #fff;
+  background-color: #14274e;
+  border-color: #14274e;
+  box-shadow: none;
+}
+
+.advanced {
+  color: #14274e;
+  margin-top: 2rem;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border: 1px solid #14274e;
+}
+
+.btn-primary:hover{
+  background-color: rgb(95, 95, 95);
+  border-color: rgb(95, 95, 95);
+}

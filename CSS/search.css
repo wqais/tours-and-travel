@@ -1,0 +1,16 @@
+@media (min-width: 576px){
+.result-heading{
+    margin: 2rem 18%;
+}
+}
+
+@media (max-width: 576px){
+    .result-heading{
+        margin: 2rem 5%;
+    }
+    }
+
+    .hr{
+        width: 80%;
+        margin: auto;
+    }
